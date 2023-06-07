@@ -1,7 +1,10 @@
 import random
-print("-=-"*30)
-user = int(input("Informe a sua escolha (1- Pedra, 2- Papel, 3- Tesoura): "))
-print("-=-"*30)
+print("{:=^50}".format(" JOKENPÔ "))
+print("""Informe a sua escolha 
+[ 1 ]- Pedra
+[ 2 ]- Papel
+[ 3 ]- Tesoura""")
+user = int(input("Opção: "))
 pc = random.randint(1,3)
 
 if user == pc:
