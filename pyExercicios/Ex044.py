@@ -1,3 +1,4 @@
+print("{:=^40}".format(" LOJAS GUANABARA "))
 valor = float(input("Informe o valor a ser pago: "))
 tipoPag = int(input("Informe a forma de pagamento (1- À vista Dinheiro ou Cheque, 2- À vista Cartão, 3- Em 2x no Cartão, 4- Em 3x ou mais no Cartão): "))
 
